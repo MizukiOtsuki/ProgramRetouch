@@ -35,6 +35,7 @@
 					<div class="card">
 						<div class="card-image">
 							<a href="Item?item_id=${item.id}&page_num=${pageNum}"><img src="img/${item.fileName}"></a>
+					
 						</div>
 						<div class="card-content">
 							<span class="card-title">${item.name}</span>
@@ -43,6 +44,7 @@
 						</div>
 					</div>
 				</div>
+				
 				<c:if test="${(status.index + 1) % 4 == 0}">
 			</div>
 			<div class="row">
